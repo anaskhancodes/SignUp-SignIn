@@ -27,7 +27,7 @@ const signUp = () => {
     firebase.auth().createUserWithEmailAndPassword( email, password)
         .then((result) => {
             // Signed in 
-            window.location.href = "newPage"
+            window.location.href = "welcome.html"
             // ...
         })
         .catch((error) => {
@@ -52,7 +52,7 @@ const signIn = () => {
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in
-            window.location.href = "newPage"
+            window.location.href = "welcome.html"
             // ...
         })
         .catch((error) => {

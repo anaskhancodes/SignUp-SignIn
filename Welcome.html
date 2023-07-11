@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            background-color: rgb(155, 192, 22);
+        }
+
+        h1 {
+            margin-top: 20%;
+            font-size: 120px;
+            z-index: 2;
+        }
+
+        .background-3 {
+            position: absolute;
+            width: 156%;
+            height: 96%;
+            margin-top: -324px;
+            background-color: rgb(255, 255, 255);
+            rotate: -26deg;
+        }
+
+
+        @media only screen and (max-width: 320px) {
+            .background-3 {
+                width: 280%;
+            }
+
+            h1 {
+                margin-top: 89%;
+                font-size: 46px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background-3"></div>
+
+    <h1>Welcome User</h1>
+</body>
+
+</html>
